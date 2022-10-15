@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI DJ Project</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.2/addons/p5.sound.min.js"></script>
+</head>
+<style>
+    body {
+        background-image: url("background.jpg");
+        background-size: cover;
+    }
+
+    .heading {
+        width: 100%;
+        margin: 0px;
+        font-size: 25px;
+        box-shadow: 10px 10px 10px deepskyblue;
+    }
+
+    .note {
+        font-size: 15px;
+        color: black;
+    }
+
+    canvas {
+        border-radius: 30px;
+        box-shadow: 2px 2px 30px skyblue;
+    }
+</style>
+<body>
+    <center>
+        <h3 class="btn btn-warning heading">AI DJ WEB APP
+            <br>
+            <span class="note">NOTE - Move your left and right wrists up and down to change the song 
+                being played.
+            </span>
+            <br>
+            <label>Song being Played: <span id="song"></span></label>
+        </h3>
+        
+    </center>
+</body>
+<script src="main.js"></script>
+</html>
